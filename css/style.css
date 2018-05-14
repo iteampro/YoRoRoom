@@ -1,0 +1,231 @@
+.floatDiv {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+    text-align: right;
+}
+.signinBtn{
+    color:#429eff;
+    border: 0;
+    background: transparent;
+    margin-right: 5px;
+    margin-top: 40px;
+    float: right;
+}
+.signupBtn{
+    color:#429eff;
+    border: 0;
+    background: transparent;
+    margin-right: 200px;
+    margin-top: 40px;
+    float: right;
+    
+}
+.searchKuang{
+    width: 20%;
+    border: 1px solid #e2e2e2;
+    height: 30px;
+    float: right;
+    margin-top: 40px;
+}
+.searchBtn{
+    width: 78px;
+    height: 32px;
+    float: right;
+    background: #545c64;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.headImage{
+    width: 80px;
+    height:80px;
+    float: left;
+    margin-left: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #545c64;
+}
+
+li {
+    margin-left: 50px;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+/*
+ *图片中的一条椭圆半透明背景
+ * 
+ * */
+ #imgyuan{
+    width: 182px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: red;
+    padding-left: 13px;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+    background-color: rgba(1, 150, 0, 0.3);
+}
+/*
+ *每一个小圆点
+ * */
+#imgyuan font{
+    border:1px solid white;
+    width:11px; 
+    height:11px;
+    border-radius:50%;
+    margin-right: 9px;
+    margin-top: 4px;
+    display: block;
+    float: left;
+    background-color: white;
+}
+.Prompt-1{
+    width: 60%;
+    height: 30px;
+    margin-left: 20%;
+    background-color: #545c64;
+    text-align: center;
+}
+.font-1{
+    color: rgb(233, 225, 179);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.flower-line{
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;  
+}
+.flower-1{
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+}
+.flower-line-2-left{
+    width: 65%;
+    margin-left: 10%;
+    height: 500px; 
+    /* background-color: #429eff; */
+    float: left;
+}
+.flower-line-2-right{
+    width: 13%;
+    margin-left: 2%;
+    height: 500px; 
+    background-color:rgb(247, 196, 244);
+    float: left;
+    margin-right: 10%;
+}
+.flower-des-1{
+    width: 48%;
+    height: 48%;
+    float: left;
+}
+.flower-des-2{
+    width: 48%;
+    height: 48%;
+    float: left;
+margin-left: 4%;    
+}
+.flower-des-3{
+    width: 48%;
+    height: 48%;
+    float: left;
+    margin-top: 2.5%;
+}
+.flower-des-4{
+    width: 48%;
+    height: 48%;
+    float: left;
+margin-left: 4%;    
+margin-top: 2.5%;
+}
+.font-des-top{
+    width: 100%;
+    height: 23%;
+    /* background-color: #429eff */
+}
+.font-des{
+    width: 100%;
+    height: 23%;
+    margin-top: 3%;
+    /* background-color: #429eff */
+}
+
+/* banner轮播图 */
+#slideShowContainer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slideShowContainer img {
+    width: 100%;
+    height: 600px;
+    transition: all 0.6s;
+}
+
+#slideShowContainer img:hover {
+    transform: scale(1.07);
+}
+
+#picUl {
+    list-style: none;
+}
+
+#dotUl {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 21px;
+    bottom: 15px;
+    z-index: 2;
+}
+
+.selected {
+    width: 12px;
+    height: 12px;
+    background-color: #FFFFFF;
+    color: transparent;
+    margin-left: 9px;
+}
+
+.unselected {
+    width: 12px;
+    height: 12px;
+    background-color: #0069AD;
+    color: transparent;
+    margin-left: 9px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+/*banner轮播结束*/
