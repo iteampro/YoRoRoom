@@ -1,3 +1,32 @@
+@charset "utf-8";
+* {
+    -webkit-touch-callout: none;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, button, input, textarea, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+
+
 .floatDiv {
     width: 50%;
     height: 100%;
@@ -5,31 +34,35 @@
     float: left;
     text-align: right;
 }
-.signinBtn{
-    color:#429eff;
+
+.signinBtn {
+    color: #429eff;
     border: 0;
     background: transparent;
     margin-right: 5px;
     margin-top: 40px;
     float: right;
 }
-.signupBtn{
-    color:#429eff;
+
+.signupBtn {
+    color: #429eff;
     border: 0;
     background: transparent;
     margin-right: 200px;
     margin-top: 40px;
     float: right;
-    
+
 }
-.searchKuang{
+
+.searchKuang {
     width: 20%;
     border: 1px solid #e2e2e2;
     height: 30px;
     float: right;
     margin-top: 40px;
 }
-.searchBtn{
+
+.searchBtn {
     width: 78px;
     height: 32px;
     float: right;
@@ -39,13 +72,22 @@
     margin-top: 40px;
     margin-right: 100px;
 }
-.headImage{
+
+.headImage {
     width: 80px;
-    height:80px;
+    height: 80px;
     float: left;
     margin-left: 50px;
 }
-ul {
+
+/*顶部导航栏*/
+.topNavigation {
+    height: 50px;
+    width: 100%;
+    background-color: #545c64
+}
+
+.topNavigation ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -53,12 +95,12 @@ ul {
     background-color: #545c64;
 }
 
-li {
+.topNavigation ul li{
     margin-left: 50px;
     float: left;
 }
 
-li a {
+.topNavigation ul li a{
     display: block;
     color: white;
     text-align: center;
@@ -66,107 +108,89 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.topNavigation ul li a:hover{
     background-color: #000000;
 }
 
-/*
- *图片中的一条椭圆半透明背景
- * 
- * */
- #imgyuan{
-    width: 182px;
-    height: 20px;
-    border-radius: 12px;
-    background-color: red;
-    padding-left: 13px;
-    margin: 0 auto;
-    position: relative;
-    top: -40px;
-    background-color: rgba(1, 150, 0, 0.3);
-}
-/*
- *每一个小圆点
- * */
-#imgyuan font{
-    border:1px solid white;
-    width:11px; 
-    height:11px;
-    border-radius:50%;
-    margin-right: 9px;
-    margin-top: 4px;
-    display: block;
-    float: left;
-    background-color: white;
-}
-.Prompt-1{
+.Prompt-1 {
     width: 60%;
     height: 30px;
     margin-left: 20%;
     background-color: #545c64;
     text-align: center;
 }
-.font-1{
+
+.font-1 {
     color: rgb(233, 225, 179);
     font-size: 25px;
     font-family: sans-serif;
 }
-.flower-line{
+
+.flower-line {
     width: 90%;
     margin-left: 5%;
-    height: 300px;  
+    height: 300px;
 }
-.flower-1{
+
+.flower-1 {
     width: 20%;
     height: 300px;
     float: left;
     margin-left: 50px;
 }
-.flower-line-2-left{
+
+.flower-line-2-left {
     width: 65%;
     margin-left: 10%;
-    height: 500px; 
+    height: 500px;
     /* background-color: #429eff; */
     float: left;
 }
-.flower-line-2-right{
+
+.flower-line-2-right {
     width: 13%;
     margin-left: 2%;
-    height: 500px; 
-    background-color:rgb(247, 196, 244);
+    height: 500px;
+    background-color: rgb(247, 196, 244);
     float: left;
     margin-right: 10%;
 }
-.flower-des-1{
+
+.flower-des-1 {
     width: 48%;
     height: 48%;
     float: left;
 }
-.flower-des-2{
+
+.flower-des-2 {
     width: 48%;
     height: 48%;
     float: left;
-margin-left: 4%;    
+    margin-left: 4%;
 }
-.flower-des-3{
+
+.flower-des-3 {
     width: 48%;
     height: 48%;
     float: left;
     margin-top: 2.5%;
 }
-.flower-des-4{
+
+.flower-des-4 {
     width: 48%;
     height: 48%;
     float: left;
-margin-left: 4%;    
-margin-top: 2.5%;
+    margin-left: 4%;
+    margin-top: 2.5%;
 }
-.font-des-top{
+
+.font-des-top {
     width: 100%;
     height: 23%;
     /* background-color: #429eff */
 }
-.font-des{
+
+.font-des {
     width: 100%;
     height: 23%;
     margin-top: 3%;
@@ -184,14 +208,11 @@ margin-top: 2.5%;
 #slideShowContainer img {
     width: 100%;
     height: 600px;
-    transition: all 0.6s;
+    /*transform: scale(1.08);*/
 }
 
-#slideShowContainer img:hover {
-    transform: scale(1.07);
-}
-
-#picUl {
+.picUl {
+    padding-left: -40px;
     list-style: none;
 }
 
@@ -228,4 +249,5 @@ margin-top: 2.5%;
 .show {
     display: block;
 }
+
 /*banner轮播结束*/
