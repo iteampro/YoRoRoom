@@ -7,174 +7,141 @@
     <!-- <audio autoplay="autoplay" loop="loop" src="data/back_audio.mp3"></audio> -->
 </head>
 <body>
-<div id="header" style="width: 100%;">
-    <iframe src="header.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+<div class="headerDiv">
+    <header class="header">
+        <!--左边logo加标题-->
+        <div class="headerFloat50">
+            <!--logo-->
+            <div class="headerLogoDiv">
+                <img src="images/58.jpg">
+            </div>
+            <!--标题-->
+            <div class="headerTitleDiv">
+                <h1 style="color: #2c3e50;">YOROROOM' 幽然小亭</h1>
+            </div>
+        </div>
+        <!--右边登录注册搜索购物车-->
+        <div class="headerFloat50">
+            <input type="text" placeholder="请输入关键字" class="searchInput">
+            <input type="button" class="searchBtn" value="搜索" onclick="">
+            <input class="signInBtn" type="button" onclick="clickSignInBtn()" value="登录">
+            <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="注册">
+            <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="购物车">
+        </div>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li onclick="">幽然小亭</li>
+            <li>新品推荐</li>
+            <li>鲜花玫瑰</li>
+            <li>当季热卖</li>
+            <li>品牌文化</li>
+            <li>特别定制</li>
+        </ul>
+    </nav>
 </div>
 <div id="center">
-
+    <iframe src="html/main.html" width="100%" height="2600" frameborder="0" scrolling="no"></iframe>
 </div>
-<div id="footer">
-
-</div>
-
-
-<div style="width: 100%; height: 10px;"></div>
-<div id="slideShowContainer">
-    <ul id="picUl" class="picUl">
-        <li>
-            <a href="#">
-                <img src="images/loop0.jpg" alt=""/>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="images/loop1.jpg" alt=""/>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="images/loop2.jpg" alt=""/>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="images/loop3.png" alt=""/>
-            </a>
-        </li>
-    </ul>
-    <ul id="dotUl">
-        <li class="selected">1</li>
-        <li class="unselected">2</li>
-        <li class="unselected">3</li>
-        <li class="unselected">4</li>
-    </ul>
-</div>
-<div style="width: 100%;height: 20px;"></div>
-<div id="1" class="Prompt-1"><font class="font-1">新品上新</font></div>
-<div class="flower-line">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-</div>
-<div id="2" class="Prompt-1" ;><font class="font-1">经典热卖</font></div>
-<div class="flower-line">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-</div>
-<div class="Prompt-1"><font class="font-1">节日好礼</font></div>
-<div class="flower-line">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-</div>
-<div class="Prompt-1"><font class="font-1">品牌推荐</font></div>
-<div class="flower-line">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-    <img src="images/33.jpg" class="flower-1">
-</div>
-<div style="width: 100%;height: 0px;"></div>
-<div style="width: 100%;height: 500px;">
-    <div class="flower-line-2-left">
-        <img src="images/05.jpg" class="flower-des-1">
-        <img src="images/4.jpg" class="flower-des-2">
-        <img src="images/5.jpg" class="flower-des-3">
-        <img src="images/06.jpg" class="flower-des-4">
-    </div>
-    <div class="flower-line-2-right">
-        <div class="font-des-top">
-            <h3 style="margin-top: 0;">文字描述</h3>
-            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
-                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
-        </div>
-        <div class="font-des">
-            <h3 style="margin-top: 0;">文字描述</h3>
-            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
-                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
-
-        </div>
-        <div class="font-des">
-            <h3 style="margin-top: 0;">文字描述</h3>
-            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
-                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
-
-        </div>
-        <div class="font-des">
-            <h3 style="margin-top: 0;">文字描述</h3>
-            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
-                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
-
-        </div>
-    </div>
-</div>
-<div style="width: 100%;height: 50px;"></div>
-<div style="width: 80%;height: 1px;background-color:gray;margin-left: 10%;"></div>
-<div style="width: 80%;height: 100px;margin-left: 10%;">
-    <div style="width: 25%;height: 100%;float: left;">
-        <div style="width: 70%;height: 100%;margin-left: 10%;">
-            <div style="width: 100%;height:60%;margin-top:10%; ">
-                <div style="width: 25%;height: 80%;float: left;"><img src="images/box.png"
-                                                                      style="width: 100%;height: 100%;margin-top: 5px;">
+<div class="footerDiv">
+    <div class="footerTopDiv">
+        <div class="footerLine"></div>
+        <div class="footerMiddleDiv">
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/box.png">
                 </div>
-                <div style="width: 15%;height: 100%;float: left;"></div>
-                <div style="width: 60%;height: 100%;float: left;">
-                    <div style="font-size: 22px;">全场包邮</div>
-                    <div>特殊商品除外</div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">全场包邮</div>
+                    <div style="font-size: 80%;">特殊商品除外</div>
+                </div>
+            </div>
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/express.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">同城速递</div>
+                    <div style="font-size: 80%;">支持当日送达</div>
+                </div>
+            </div>
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/edit.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">爱的留言</div>
+                    <div style="font-size: 80%;">支持文字，随时查阅</div>
+                </div>
+            </div>
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/flower.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">保养物语</div>
+                    <div style="font-size: 80%;">恒久保存爱意</div>
                 </div>
             </div>
         </div>
+        <div class="footerLine"></div>
     </div>
-    <div style="width: 25%;height: 100%;float: left;">
-        <div style="width: 70%;height: 100%;margin-left: 10%;">
-            <div style="width: 100%;height:60%;margin-top:10%; ">
-                <div style="width: 25%;height: 80%;float: left;"><img src="images/express.png"
-                                                                      style="width: 100%;height: 100%;margin-top: 5px;">
-                </div>
-                <div style="width: 15%;height: 100%;float: left;"></div>
-                <div style="width: 60%;height: 100%;float: left;">
-                    <div style="font-size: 22px;">同城速递</div>
-                    <div style="font-size: 12px;">支持文字，随时查阅</div>
-                </div>
+    <div class="footerBottomDiv">
+        <div class="footerLeft20">
+            <div id="erweimaDiv" class="erweimaDiv" style="display: none;">
+                <img src="images/erweima.png">
+            </div>
+            <div style="height: 20px;"></div>
+            <div style="text-align: center;font-size: 150%;">YOROROOM'</div>
+            <div style="height: 30px;"></div>
+            <div style="text-align: center;font-size: 120%;">幽然小亭</div>
+            <div style="height: 50px;"></div>
+            <div style="text-align: center;">
+                <img style="width: 60px;height: 60px;" src="images/weixin.png" onmouseout="hideErweima()" onmousemove="showErweima()">
             </div>
         </div>
-    </div>
-    <div style="width: 25%;height: 100%;float: left;">
-        <div style="width: 70%;height: 100%;margin-left: 10%;">
-            <div style="width: 100%;height:60%;margin-top:10%; ">
-                <div style="width: 25%;height: 80%;float: left;"><img src="images/edit.png"
-                                                                      style="width: 100%;height: 100%;margin-top: 5px;">
-                </div>
-                <div style="width: 15%;height: 100%;float: left;"></div>
-                <div style="width: 60%;height: 100%;float: left;">
-                    <div style="font-size: 22px;">爱的留言</div>
-                    <div>特殊商品除外</div>
-                </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">新手指南</li>
+                    <li>购物流程</li>
+                    <li>会员尊享</li>
+                    <li>常见问题</li>
+                    <li>指圈测量</li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div style="width: 25%;height: 100%;float: left;">
-        <div style="width: 70%;height: 100%;margin-left: 10%;">
-            <div style="width: 100%;height:60%;margin-top:10%; ">
-                <div style="width: 25%;height: 80%;float: left;"><img src="images/flower.png"
-                                                                      style="width: 100%;height: 100%;margin-top: 5px;">
-                </div>
-                <div style="width: 15%;height: 100%;float: left;"></div>
-                <div style="width: 60%;height: 100%;float: left;">
-                    <div style="font-size: 22px;">保养物语</div>
-                    <div>恒久保存爱意</div>
-                </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">售后服务</li>
+                    <li>退款说明</li>
+                    <li>保养物语</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">物流配送</li>
+                    <li>配送方式</li>
+                    <li>配送服务</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">关于我们</li>
+                    <li>品牌介绍</li>
+                    <li>渠道销售</li>
+                    <li>联系我们</li>
+                    <li>加入我们</li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
-<div style="width: 80%;height: 1px;background-color:gray;margin-left: 10%;"></div>
-<div style="width: 100%;height: 50px"></div>
-<div style="width: 80%;height: 200px;background-color: darkorange;margin-left: 10%;"></div>
 <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </body>

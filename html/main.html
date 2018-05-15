@@ -1,0 +1,138 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<div style="width: 100%; height: 10px;"></div>
+<div id="slideShowContainer">
+    <ul id="picUl" class="picUl">
+        <li>
+            <a href="#">
+                <img src="../images/loop0.jpg" alt=""/>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="../images/loop1.jpg" alt=""/>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="../images/loop2.jpg" alt=""/>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="../images/loop3.png" alt=""/>
+            </a>
+        </li>
+    </ul>
+    <ul id="dotUl">
+        <li class="selected">1</li>
+        <li class="unselected">2</li>
+        <li class="unselected">3</li>
+        <li class="unselected">4</li>
+    </ul>
+</div>
+<div style="width: 100%;height: 20px;"></div>
+<div id="1" class="Prompt-1"><font class="font-1">新品上新</font></div>
+<div class="flower-line">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+</div>
+<div id="2" class="Prompt-1" ;><font class="font-1">经典热卖</font></div>
+<div class="flower-line">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+</div>
+<div class="Prompt-1"><font class="font-1">节日好礼</font></div>
+<div class="flower-line">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+</div>
+<div class="Prompt-1"><font class="font-1">品牌推荐</font></div>
+<div class="flower-line">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+    <img src="../images/33.jpg" class="flower-1">
+</div>
+<div style="width: 100%;height: 0px;"></div>
+<div style="width: 100%;height: 500px;">
+    <div class="flower-line-2-left">
+        <img src="../images/05.jpg" class="flower-des-1">
+        <img src="../images/4.jpg" class="flower-des-2">
+        <img src="../images/5.jpg" class="flower-des-3">
+        <img src="../images/06.jpg" class="flower-des-4">
+    </div>
+    <div class="flower-line-2-right">
+        <div class="font-des-top">
+            <h3 style="margin-top: 0;">文字描述</h3>
+            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
+                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
+        </div>
+        <div class="font-des">
+            <h3 style="margin-top: 0;">文字描述</h3>
+            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
+                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
+
+        </div>
+        <div class="font-des">
+            <h3 style="margin-top: 0;">文字描述</h3>
+            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
+                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
+
+        </div>
+        <div class="font-des">
+            <h3 style="margin-top: 0;">文字描述</h3>
+            <p style="text-indent: 2em;margin-top: 2px;font-size: 2px;">
+                善良是你的本性，漂亮是你的天性，聪明是你的优点，贤惠是你的资本，温柔是你的标志，真诚是你的品格！</p>
+
+        </div>
+    </div>
+</div>
+<script>
+    var slideShowContainer = document.getElementById("slideShowContainer");
+    var pic = document.getElementById("picUl").getElementsByTagName("li");
+    var dot = document.getElementById("dotUl").getElementsByTagName("li");
+    var index = 0;
+    var timer = null;
+    /*定义图片切换函数*/
+    function changePic(curIndex) {
+        for (var i = 0; i < pic.length; ++i) {
+            pic[i].style.display = "none";
+            dot[i].className = "unselected";
+        }
+        pic[curIndex].style.display = "block";
+        dot[curIndex].className = "selected";
+    }
+    /*index超出图片总量时归零*/
+    function autoPlay() {
+        if (+index >= pic.length) {
+            index = 0;
+        }
+        changePic(index);
+        index++;
+    }
+    /*定义并调用自动播放函数*/
+    timer = setInterval(autoPlay, 3000);
+    /*鼠标划过整个容器时停止自动播放*/
+    slideShowContainer.onmouseover = function () {
+        clearInterval(timer);
+    };
+    /*鼠标离开整个容器时继续播放下一张*/
+    slideShowContainer.onmouseout = function () {
+        timer = setInterval(autoPlay, 3000);
+    };
+    /*遍历所有数字导航实现划过切换至对应的图片*/
+    for (var i = 0; i < dot.length; i++) {
+        dot[i].onmouseover = function () {
+            clearInterval(timer);
+            index = this.innerText - 1;
+            changePic(index)
+        }
+    }
+</script>
