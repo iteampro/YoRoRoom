@@ -1,9 +1,7 @@
 /**
  * Created by leeou on 2018/5/12.
  */
-var mainIFrame = document.getElementById("mainHtml");
-var detailIFrame = document.getElementById("detailHtml");
-var culture = document.getElementById("cultureHtml");
+
 //顶部按钮点击方法，注册登录购物车
 function clickSignInBtn(){
     // alert("点击了登录按钮");
@@ -16,31 +14,36 @@ function goShopping() {
 }
 //导航栏点击方法
 function clickNavigation(num) {
+    $('#center').empty();
+    var html = '';
     switch (num){
         case 1:
-            mainIFrame.style.display = "block";
-            detailIFrame.style.display = "none";
-            culture.style.display = "none";
+            html = '<iframe id="mainHtml" src="html/main.html" width="100%" height="2600" frameborder="0" scrolling="no"></iframe>';
+            $('#center').empty();
+            $('#center').append(html);
             break;
         case 2:
-            mainIFrame.style.display = "none";
-            detailIFrame.style.display = "block";
-            culture.style.display = "none";
+           html = '<iframe id="detailHtml" src="html/shangpinzhanshi.html" width="100%" height="1000" frameborder="0" scrolling="no"></iframe>';
             break;
         case 3:
+            html = '';
             break;
         case 4:
+            html = '';
             break;
         case 5:
-            mainIFrame.style.display = "none";
-            detailIFrame.style.display = "none";
-            culture.style.display = "block";
+            html = '<iframe id="detailHtml" src="html/culture.html" width="100%" height="1500" frameborder="0" scrolling="no"></iframe>';
             break;
         case 6:
+            html = '';
             break;
     }
+    $('#center').append(html);
 }
-
+//进入商品单独展示页
+function tiaozhuan() {
+    window.location.href = '../product.html';
+}
 
 
 
