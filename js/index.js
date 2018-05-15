@@ -3,6 +3,7 @@
  */
 var mainIFrame = document.getElementById("mainHtml");
 var detailIFrame = document.getElementById("detailHtml");
+var culture = document.getElementById("cultureHtml");
 //顶部按钮点击方法，注册登录购物车
 function clickSignInBtn(){
     // alert("点击了登录按钮");
@@ -19,16 +20,21 @@ function clickNavigation(num) {
         case 1:
             mainIFrame.style.display = "block";
             detailIFrame.style.display = "none";
+            culture.style.display = "none";
             break;
         case 2:
             mainIFrame.style.display = "none";
             detailIFrame.style.display = "block";
+            culture.style.display = "none";
             break;
         case 3:
             break;
         case 4:
             break;
         case 5:
+            mainIFrame.style.display = "none";
+            detailIFrame.style.display = "none";
+            culture.style.display = "block";
             break;
         case 6:
             break;
