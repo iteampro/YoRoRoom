@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>YOROROOM</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <!-- <audio autoplay="autoplay" loop="loop" src="data/back_audio.mp3"></audio> -->
 </head>
 <body>
@@ -26,23 +26,23 @@
             <input type="button" class="searchBtn" value="搜索" onclick="">
             <input class="signInBtn" type="button" onclick="clickSignInBtn()" value="登录">
             <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="注册">
-            <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="购物车">
+            <input class="signUpBtn" type="button" onclick="goShopping()" value="购物车">
         </div>
     </header>
     <nav class="nav">
         <ul>
-            <li onclick="">幽然小亭</li>
-            <li>新品推荐</li>
-            <li>鲜花玫瑰</li>
-            <li>当季热卖</li>
-            <li>品牌文化</li>
-            <li>特别定制</li>
+            <li onclick="clickNavigation(1)">幽然小亭</li>
+            <li onclick="clickNavigation(2)">新品推荐</li>
+            <li onclick="clickNavigation(3)">鲜花玫瑰</li>
+            <li onclick="clickNavigation(4)">当季热卖</li>
+            <li onclick="clickNavigation(5)">品牌文化</li>
+            <li onclick="clickNavigation(6)">特别定制</li>
         </ul>
     </nav>
 </div>
 <div id="center">
-    <!--<iframe src="html/main.html" width="100%" height="2600" frameborder="0" scrolling="no"></iframe>-->
-    <iframe src="html/detail.html" width="100%" height="1000" frameborder="0" scrolling="no"></iframe>
+    <iframe id="mainHtml" src="html/main.html" width="100%" height="2600" frameborder="0" scrolling="no" style="display: none;"></iframe>
+    <iframe id="detailHtml" src="html/detail.html" width="100%" height="1000" frameborder="0" scrolling="no"></iframe>
 </div>
 <div class="footerDiv">
     <div class="footerTopDiv">
@@ -105,10 +105,10 @@
             <div class="footerUlLiDiv">
                 <ul>
                     <li style="font-size: 120%;">新手指南</li>
-                    <li>购物流程</li>
-                    <li>会员尊享</li>
-                    <li>常见问题</li>
-                    <li>指圈测量</li>
+                    <li onclick="newbieGuide(1)">购物流程</li>
+                    <li onclick="newbieGuide(2)">会员尊享</li>
+                    <li onclick="newbieGuide(3)">常见问题</li>
+                    <li onclick="newbieGuide(4)">指圈测量</li>
                 </ul>
             </div>
         </div>
@@ -116,8 +116,8 @@
             <div class="footerUlLiDiv">
                 <ul>
                     <li style="font-size: 120%;">售后服务</li>
-                    <li>退款说明</li>
-                    <li>保养物语</li>
+                    <li onclick="afterService(1)">退款说明</li>
+                    <li onclick="afterService(2)">保养物语</li>
                 </ul>
             </div>
         </div>
@@ -125,8 +125,8 @@
             <div class="footerUlLiDiv">
                 <ul>
                     <li style="font-size: 120%;">物流配送</li>
-                    <li>配送方式</li>
-                    <li>配送服务</li>
+                    <li onclick="distribution(1)">配送方式</li>
+                    <li onclick="distribution(2)">配送服务</li>
                 </ul>
             </div>
         </div>
@@ -134,10 +134,10 @@
             <div class="footerUlLiDiv">
                 <ul>
                     <li style="font-size: 120%;">关于我们</li>
-                    <li>品牌介绍</li>
-                    <li>渠道销售</li>
-                    <li>联系我们</li>
-                    <li>加入我们</li>
+                    <li onclick="aboutUs(1)">品牌介绍</li>
+                    <li onclick="aboutUs(2)">渠道销售</li>
+                    <li onclick="aboutUs(3)">联系我们</li>
+                    <li onclick="aboutUs(4)">加入我们</li>
                 </ul>
             </div>
         </div>
