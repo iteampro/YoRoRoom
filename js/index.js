@@ -12,6 +12,9 @@ function clickSignUpBtn(){
 function goShopping() {
     window.location.href = 'order.html';
 }
+function xinpinshagnxin() {
+    window.location.href = "product.html";
+}
 //导航栏点击方法
 function clickNavigation(num) {
     var html = '';
@@ -32,7 +35,7 @@ function clickNavigation(num) {
             window.location.href = 'culture.html';
             break;
         case 6:
-            window.location.href = 'product.html';
+            window.location.href = 'special.html';
             break;
     }
 }

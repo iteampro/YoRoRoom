@@ -41,3 +41,6 @@ for (var i = 0; i < dot.length; i++) {
         changePic(index)
     }
 }
+
+
+
