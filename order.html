@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>YOROROOM</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/detail.css">
+    <link rel="stylesheet" type="text/css" href="css/order.css">
     <!-- <audio autoplay="autoplay" loop="loop" src="data/back_audio.mp3"></audio> -->
 </head>
 <body>
@@ -42,56 +42,80 @@
     </nav>
 </div>
 <div id="center" style="width: 100%;margin: 0 auto;">
-    <div style="width: 100%;height: 50px;"></div>
-    <div class="goods-mian">
-        <div class="goods-left">
-            <div class="goods-details">
-                <img src="images/25.jpg" style="width: 100%;height: 100%;">
-            </div>
-            <div class="goods-details-bottom">
-                <div class="goods-details-1">
-                    <img src="images/25.jpg" style="width: 100%;height: 100%;">
-                </div>
-                <div class="goods-details-2">
-                    <img src="images/25.jpg" style="width: 100%;height: 100%;">
-                </div>
-                <div class="goods-details-2">
-                    <img src="images/25.jpg" style="width: 100%;height: 100%;">
-                </div>
-            </div>
+    <div style="width: 100%;height: 20px;"></div>
+    <div class="Order-main">
+        <h2 style="color: #545c64;">我的购物车</h2>
+        <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
+        <div class="Order-tittle">
+            <div class="Order-serial"><font style="font-size: 20px;">序号</font></div>
+            <div class="Order-name"><font style="font-size: 20px;">名称</font></div>
+            <div class="Order-price"><font style="font-size: 20px;">价格</font></div>
+            <div class="Order-num"><font style="font-size: 20px;">数量</font></div>
+            <div class="Order-operate"><font style="font-size: 20px;">操作</font></div>
         </div>
-        <div class="goods-right">
-            <div class="goods-right-content">
-                <div class="goods-tittle"><h2>一花一恋向日葵鲜花一花一恋向日葵鲜花一花一恋向日葵鲜花</h2></div>
-                <div class="goods-price">
-                    <font style="width: 13%;height: 100%;float: left;font-size: 23px; ">价格:</font>
-                    <font style="font-size: 27px;color: red;">￥299</font></div>
-                <div class="goods-color">
-                    <font style="width: 20%;height: 100%;float: left;font-size: 23px; ;">选择颜色：</font>
-                    <div class="goods-color-img">
-                        <img src="images/25.jpg" class="goods-color-img-size">
-                        <img src="images/25.jpg" class="goods-color-img-size">
-                        <img src="images/25.jpg" class="goods-color-img-size">
-                    </div>
+        <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
+        <div class="Order-item">
+            <div class="Order-item-detail">
+                <div class="Order-serial-num">
+                    <div class="ceshi">1</div>
                 </div>
-                <div class="goods-num">
-                    <font style="width: 15%;height: 100%;float: left;font-size: 23px; ">数量：</font>
-                    <div class="goods-num-button">
-                        <button class="goods-addbtn">+</button>
-                        <input id="myInput" type="text" class="goods-num-input" placeholder="1" ;>
-                        <button class="goods-reduce">-</button>
-                    </div>
+                <div class="Order-item-name">
+                    <img src="images/05.jpg" class="Order-item-img">
+                    <div class="item-img-name">这朵花叫什么名字呢</div>
                 </div>
-                <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
-                <div class="goods-buy">
-                    <button class="goods-buy-btn">加入购物车</button>
+                <div class="Order-item-price">
+                    <div class="item-price-num">￥299.00</div>
+                </div>
+                <div class="item-num-btn">
+                    <button class="goods-addbtn">+</button>
+                    <input id="myInput1" type="text" class="goods-num-input" placeholder="1" ;>
+                    <button class="goods-reduce">-</button>
+                </div>
+                <div class="item-operate"><a href="" class="item-delete">删除此物品</a></div>
+
+            </div>
+            <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
+
+        </div>
+        <div class="Order-item">
+            <div class="Order-item-detail">
+                <div class="Order-serial-num">
+                    <div class="ceshi">2</div>
+                </div>
+                <div class="Order-item-name">
+                    <img src="images/05.jpg" class="Order-item-img">
+                    <div class="item-img-name">这朵花叫什么名字呢</div>
+                </div>
+                <div class="Order-item-price">
+                    <div class="item-price-num">￥299.00</div>
+                </div>
+                <div class="item-num-btn">
+                    <button class="goods-addbtn">+</button>
+                    <input id="myInput2" type="text" class="goods-num-input" placeholder="1" ;>
+                    <button class="goods-reduce">-</button>
+                </div>
+                <div class="item-operate"><a href="" class="item-delete">删除此物品</a></div>
+
+            </div>
+            <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
+
+        </div>
+        <div class="Order-accounts">
+            <div class="Order-accounts-left">
+                <a class="Order-help" href="">订单帮助?</a><br><br>
+                <font>联系电话：13987654321</font><br>
+                <font>邮箱：987654321@qq.com</font>
+            </div>
+            <div class="Order-accounts-right">
+                <div class="Order-price-total">
+                    <div class="Order-total-font">合计： <font style="font-size: 27px;"> 299.00</font></div>
+                    <button class="Order-total-btn">去结算</button>
                 </div>
             </div>
 
-
         </div>
+
     </div>
-    <div style="width: 100%;height: 50px;"></div>
 </div>
 <div class="footerDiv">
     <div class="footerTopDiv">
@@ -195,7 +219,6 @@
 </div>
 <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
 

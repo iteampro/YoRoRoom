@@ -10,7 +10,7 @@ function clickSignUpBtn(){
     // alert("点击了注册按钮");
 }
 function goShopping() {
-
+    window.location.href = 'order.html';
 }
 //导航栏点击方法
 function clickNavigation(num) {
