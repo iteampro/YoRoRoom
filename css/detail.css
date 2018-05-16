@@ -1,0 +1,172 @@
+@charset "utf-8";
+* {
+    -webkit-touch-callout: none;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, button, input, textarea, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+
+.goods-mian {
+    width: 60%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-left: 20%;
+}
+
+.goods-left {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.goods-right {
+    width: 60%;
+    height: 100%;
+    float: left;
+    /* background-color: aqua; */
+}
+
+.goods-details {
+    width: 100%;
+    height: 70%;
+    border: #545c64;
+
+}
+
+.goods-details-bottom {
+    width: 100%;
+    height: 30%;
+    border: #545c64;
+
+}
+
+.goods-details-1 {
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-top: 10px;
+    border: 2px;
+    border-color: #545c64;
+    border: #545c64;
+
+}
+
+.goods-details-2 {
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+    border: #545c64;
+}
+
+.goods-right-content {
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.goods-tittle {
+    width: 100%;
+    height: 15%;
+
+    /* background-color: blueviolet; */
+}
+
+.goods-price {
+    width: 100%;
+    height: 15%;
+    margin-top: 4%;
+    /* background-color: cadetblue; */
+
+}
+
+.goods-color {
+    width: 100%;
+    height: 15%;
+    margin-top: 4%;
+    /* background-color: cadetblue; */
+}
+
+.goods-num {
+    width: 100%;
+    height: 15%;
+    margin-top: 4%;
+    /* background-color: cadetblue; */
+}
+
+.goods-buy {
+    width: 100%;
+    height: 15%;
+    margin-top: 3%;
+    /* background-color: cadetblue; */
+}
+
+.goods-color-img {
+    width: 80%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.goods-color-img-size {
+    width: 20%;
+    height: 100%;
+    margin-left: 3%;
+    float: left;
+}
+
+.goods-num-button {
+    width: 80%;
+    height: 100%;
+    /* background-color: deeppink; */
+}
+
+/* input 颜色 */
+#myInput::-webkit-input-placeholder {
+    color: black;
+}
+
+.goods-num-input {
+    text-align: center;
+    width: 10%;
+    height: 25%;
+}
+
+.goods-addbtn {
+    width: 5%;
+    height: 35%;
+
+}
+
+.goods-reduce {
+    width: 5%;
+    height: 35%;
+}
+
+.goods-buy-btn {
+    width: 30%;
+    height: 70%;
+    font-size: 20px;
+    background-color: rgb(255, 35, 46);
+    color: white;
+}

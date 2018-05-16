@@ -14,38 +14,28 @@ function goShopping() {
 }
 //导航栏点击方法
 function clickNavigation(num) {
-    $('#center').empty();
     var html = '';
     switch (num){
         case 1:
-            html = '<iframe id="mainHtml" src="html/main.html" width="100%" height="2600" frameborder="0" scrolling="no"></iframe>';
-            $('#center').empty();
-            $('#center').append(html);
+            window.location.href = 'index.html';
             break;
         case 2:
-           html = '<iframe id="detailHtml" src="html/shangpinzhanshi.html" width="100%" height="1000" frameborder="0" scrolling="no"></iframe>';
+            window.location.href = 'product.html';
             break;
         case 3:
-            html = '';
+            window.location.href = 'product.html';
             break;
         case 4:
-            html = '';
+            window.location.href = 'product.html';
             break;
         case 5:
-            html = '<iframe id="detailHtml" src="html/culture.html" width="100%" height="1500" frameborder="0" scrolling="no"></iframe>';
+            window.location.href = 'culture.html';
             break;
         case 6:
-            html = '';
+            window.location.href = 'product.html';
             break;
     }
-    $('#center').append(html);
 }
-//进入商品单独展示页
-function tiaozhuan() {
-    window.location.href = '../product.html';
-}
-
-
 
 //底部按钮点击方法
 /*
