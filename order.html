@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>YOROROOM</title>
+    <title>我的购物车</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/order.css">
     <!-- <audio autoplay="autoplay" loop="loop" src="data/back_audio.mp3"></audio> -->
@@ -45,7 +45,7 @@
     <div style="width: 100%;height: 20px;"></div>
     <div class="Order-main">
         <h2 style="color: #545c64;">我的购物车</h2>
-        <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
+        <div style="width: 100%;height: 10px;"></div>
         <div class="Order-tittle">
             <div class="Order-serial"><font style="font-size: 20px;">序号</font></div>
             <div class="Order-name"><font style="font-size: 20px;">名称</font></div>
@@ -53,53 +53,54 @@
             <div class="Order-num"><font style="font-size: 20px;">数量</font></div>
             <div class="Order-operate"><font style="font-size: 20px;">操作</font></div>
         </div>
-        <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
-        <div class="Order-item">
-            <div class="Order-item-detail">
-                <div class="Order-serial-num">
-                    <div class="ceshi">1</div>
-                </div>
-                <div class="Order-item-name">
-                    <img src="images/05.jpg" class="Order-item-img">
-                    <div class="item-img-name">这朵花叫什么名字呢</div>
-                </div>
-                <div class="Order-item-price">
-                    <div class="item-price-num">￥299.00</div>
-                </div>
-                <div class="item-num-btn">
-                    <button class="goods-addbtn">+</button>
-                    <input id="myInput1" type="text" class="goods-num-input" placeholder="1" ;>
-                    <button class="goods-reduce">-</button>
-                </div>
-                <div class="item-operate"><a href="" class="item-delete">删除此物品</a></div>
+        <div id="orderDiv">
+            <div class="Order-item">
+                <div class="Order-item-detail">
+                    <div class="Order-serial-num">
+                        <div class="ceshi">1</div>
+                    </div>
+                    <div class="Order-item-name">
+                        <img src="images/05.jpg" class="Order-item-img">
+                        <div class="item-img-name">这朵花叫什么名字呢</div>
+                    </div>
+                    <div class="Order-item-price">
+                        <div class="item-price-num">￥299.00</div>
+                    </div>
+                    <div class="item-num-btn">
+                        <button class="goods-addbtn">+</button>
+                        <input id="myInput1" type="text" class="goods-num-input" placeholder="1" ;>
+                        <button class="goods-reduce">-</button>
+                    </div>
+                    <div class="item-operate">
+                        <a href="" class="item-delete">删除此物品</a>
+                    </div>
 
+                </div>
             </div>
             <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
-
-        </div>
-        <div class="Order-item">
-            <div class="Order-item-detail">
-                <div class="Order-serial-num">
-                    <div class="ceshi">2</div>
+            <div class="Order-item">
+                <div class="Order-item-detail">
+                    <div class="Order-serial-num">
+                        <div class="ceshi">2</div>
+                    </div>
+                    <div class="Order-item-name">
+                        <img src="images/05.jpg" class="Order-item-img">
+                        <div class="item-img-name">这朵花叫什么名字呢</div>
+                    </div>
+                    <div class="Order-item-price">
+                        <div class="item-price-num">￥299.00</div>
+                    </div>
+                    <div class="item-num-btn">
+                        <button class="goods-addbtn">+</button>
+                        <input id="myInput2" type="text" class="goods-num-input" placeholder="1" ;>
+                        <button class="goods-reduce">-</button>
+                    </div>
+                    <div class="item-operate"><a href="" class="item-delete">删除此物品</a></div>
                 </div>
-                <div class="Order-item-name">
-                    <img src="images/05.jpg" class="Order-item-img">
-                    <div class="item-img-name">这朵花叫什么名字呢</div>
-                </div>
-                <div class="Order-item-price">
-                    <div class="item-price-num">￥299.00</div>
-                </div>
-                <div class="item-num-btn">
-                    <button class="goods-addbtn">+</button>
-                    <input id="myInput2" type="text" class="goods-num-input" placeholder="1" ;>
-                    <button class="goods-reduce">-</button>
-                </div>
-                <div class="item-operate"><a href="" class="item-delete">删除此物品</a></div>
-
             </div>
             <div style="width: 100%;height: 1px;background-color: #545c64;"></div>
-
         </div>
+
         <div class="Order-accounts">
             <div class="Order-accounts-left">
                 <a class="Order-help" href="">订单帮助?</a><br><br>
@@ -108,7 +109,7 @@
             </div>
             <div class="Order-accounts-right">
                 <div class="Order-price-total">
-                    <div class="Order-total-font">合计： <font style="font-size: 27px;"> 299.00</font></div>
+                    <div class="Order-total-font">合计： <font id="sumMoneyFont" style="font-size: 27px;"> 299.00</font></div>
                     <button class="Order-total-btn">去结算</button>
                 </div>
             </div>

@@ -5,9 +5,11 @@
 //顶部按钮点击方法，注册登录购物车
 function clickSignInBtn(){
     // alert("点击了登录按钮");
+    window.location.href = "signup.html";
 }    
 function clickSignUpBtn(){
     // alert("点击了注册按钮");
+    window.location.href = "signup.html";
 }
 function goShopping() {
     window.location.href = 'order.html';

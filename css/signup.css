@@ -1,0 +1,188 @@
+.main{
+    width: 100%;
+    height: 1500px;
+    /* background-color: aqua; */
+}
+.sign-mainfram{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    /* background-color: blue; */
+}
+.headImage{
+width: 100%;
+height:100%;
+}
+.sign-img{
+width: 16%;
+height: 20%;
+margin: auto;
+
+}
+.sign-fram{
+width: 100%;
+height: 80%;
+/* background-color: blueviolet; */
+border:1px solid black;
+}
+.sign-in{
+width: 50%;
+height: 50px;
+float: left;
+background: none;
+background-color: #545c64;
+font-size: 21px;
+font-weight: bold;
+color: white;
+border: none;
+
+/* border-style:solid;
+border-width:1px;
+border-color:white; */
+}
+.sign-up{
+width: 50%;
+height: 50px;
+float: left;
+background: none;
+background-color: white;
+font-size: 21px;
+border: none;
+font-weight: bold;
+color: #545c64;
+/* border-style:solid;
+border-width:1px;
+border-color:#545c64; */
+}
+.sign-in-content{
+    width: 100%;
+    height: 90%;
+    margin-top:50px;
+    /* background-color: yellowgreen; */
+    display: block;
+    }
+.sign-up-content{
+width: 100%;
+height: 90%;
+margin-top:50px;
+/* background-color: brown; */
+display: none;
+}
+.pass{
+    width: 100%;
+    height: 10%;
+    /* background-color: aliceblue; */
+}
+.username{
+    width: 100%;
+    height: 20%;
+    /* background-color:firebrick; */
+    
+}
+.password{
+    width: 100%;
+    height: 20%;
+    /* background-color: cadetblue; */
+}
+.agpassword{
+    width: 100%;
+    height: 20%;
+    /* background-color: darkblue; */
+}
+.submit{
+    width: 100%;
+    height: 20%;
+    /* background-color: gold; */
+}
+.namestyle{
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bolder;
+    /* background-color: aqua; */
+}
+.nameinput{
+    width: 50%;
+    height: 60%;
+}
+.submit-btn{
+    width: 30%;
+    height: 70%;
+    margin-left: 35%;
+    margin-top: 10px;
+    background: #545c64;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+}
+.left{
+     width: 70%;
+     height: 100%;
+     /* background-color: coral; */
+     float: left;
+}
+.middle{
+    width: 1px;
+    height: 60%;
+    background-color: black;
+    margin-top: 10%;
+    float: left;
+}
+.right{
+    width: 29%;
+    height: 100%;
+    float: left;
+    /* background-color: cornflowerblue; */
+}
+.usernameinput{
+    width: 65%;
+    height: 13%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 40px;
+    
+}
+.passwordinput{
+    width: 65%;
+    height: 13%;
+    margin-left: 10%;
+    margin-top: 7%;
+    padding-left: 40px;
+}
+.upbtn{
+    width: 50%;
+    height: 15%;
+    margin-left: 25%;
+    margin-top: 30px;
+    background: #545c64;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+}
+.erweima{
+    width: 100px;
+    height: 35%;
+    margin-left: 17%;
+    margin-top: 25%;
+}
+
+.wxicon{
+    width: 32px;
+    height: 30px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 30px;
+}
+.qqicon{
+    width: 40px;
+    height: 30px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    
+}

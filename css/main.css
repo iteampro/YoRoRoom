@@ -25,6 +25,57 @@ body {
     border: none;
     outline: none;
 }
+
+
+@media only screen and (max-width: 1280px) {
+
+}
+/* banner轮播图 */
+#slideShowContainer {
+    width: 98%;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#slideShowContainer img {
+    width: 100%;
+    height: 550px;
+    /*transform: scale(1.08);*/
+}
+.picUl {
+    padding-left: -40px;
+    list-style: none;
+}
+
+#dotUl {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 15px;
+    left: 47.5%;
+    z-index: 2;
+}
+
+.selected {
+    width: 12px;
+    height: 12px;
+    background-color: #FFFFFF;
+    color: transparent;
+    margin-left: 9px;
+    border-radius: 8px;
+}
+
+.unselected {
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    color: transparent;
+    margin-left: 9px;
+    border-radius: 8px;
+}
 .Prompt-1 {
     width: 60%;
     height: 30px;
@@ -113,53 +164,9 @@ body {
     /* background-color: #429eff */
 }
 
-/* banner轮播图 */
-#slideShowContainer {
-    width: 98%;
-    height: 650px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
 
-#slideShowContainer img {
-    width: 100%;
-    height: 650px;
-    /*transform: scale(1.08);*/
-}
 
-.picUl {
-    padding-left: -40px;
-    list-style: none;
-}
 
-#dotUl {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    bottom: 15px;
-    left: 47.5%;
-    z-index: 2;
-}
-
-.selected {
-    width: 12px;
-    height: 12px;
-    background-color: #FFFFFF;
-    color: transparent;
-    margin-left: 9px;
-    border-radius: 8px;
-}
-
-.unselected {
-    width: 12px;
-    height: 12px;
-    background-color: gray;
-    color: transparent;
-    margin-left: 9px;
-    border-radius: 8px;
-}
 
 .hide {
     display: none;
