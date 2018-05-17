@@ -28,10 +28,10 @@ function clickNavigation(num) {
             window.location.href = 'product.html';
             break;
         case 3:
-            window.location.href = 'product.html';
+            window.location.href = 'product_xianhua.html';
             break;
         case 4:
-            window.location.href = 'product.html';
+            window.location.href = 'product_dangji.html';
             break;
         case 5:
             window.location.href = 'culture.html';

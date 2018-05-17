@@ -32,6 +32,18 @@ body {
     margin: 0 auto;
 }
 
+.topGoods{
+    width: 100%;
+    height: 400px;
+    background: url("../images/loop2.jpg") center center no-repeat;
+}
+
+
+
+
+
+
+
 .height300div {
     width: 100%;
     height: 300px;

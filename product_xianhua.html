@@ -2,9 +2,212 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>鲜花玫瑰</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/xianhua.css">
+    <!-- <audio autoplay="autoplay" loop="loop" src="data/back_audio.mp3"></audio> -->
 </head>
 <body>
+<div class="headerDiv">
+    <header class="header">
+        <!--左边logo加标题-->
+        <div class="headerFloat50">
+            <!--logo-->
+            <div class="headerLogoDiv">
+                <img src="images/58.jpg">
+            </div>
+            <!--标题-->
+            <div class="headerTitleDiv">
+                <h1 style="color: #2c3e50;">YOROROOM' 幽然小亭</h1>
+            </div>
+        </div>
+        <!--右边登录注册搜索购物车-->
+        <div class="headerFloat50">
+            <div class="headerFloat50Middle" style="width: 200px;">
+                <input type="text" placeholder="请输入关键字" class="searchInput">
+            </div>
+            <div class="headerFloat50Middleno" style="">
+                <input type="button" class="searchBtn" value="搜索" onclick="">
+            </div>
+            <div class="headerFloat50Middle" style="margin-left: 100px;">
+                <input class="signInBtn" type="button" onclick="clickSignInBtn()" value="登录">
+            </div>
+            <div class="headerFloat50Middle" style="margin-left: 10px;">
+                <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="注册">
+            </div>
+            <div class="headerFloat50Middle" style="width: 70px;margin-left: 10px;" onclick="goShopping()">
+                <img style="width: 30px;height: 25px;margin-top: 7px;float: left;" src="images/gouwuche.png">
+                <span style="float: left;margin-top: 7px;">(0)</span>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li onclick="clickNavigation(1)">幽然小亭</li>
+            <li onclick="clickNavigation(2)">新品推荐</li>
+            <li onclick="clickNavigation(3)">鲜花玫瑰</li>
+            <li onclick="clickNavigation(4)">当季热卖</li>
+            <li onclick="clickNavigation(5)">品牌文化</li>
+            <li onclick="clickNavigation(6)">特别定制</li>
+        </ul>
+    </nav>
+</div>
+<div id="center" style="width: 100%;margin: 0 auto;">
+    <div style="width: 100%;height: 20px;"></div>
+    <div class="line-1">
+        <div class="line-1-image-1"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-1-image-2"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="img-1-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-2-name"><font>这朵花叫什么名字</font></div>
+    </div>
+    <div style="width: 100%;height: 20px;" ></div>
 
+    <div class="line-2">
+        <div class="line-2-image-1"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-2-image-2"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-2-image-3"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="img-3-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-4-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-5-name"><font>这朵花叫什么名字</font></div>
+    </div>
+    <div style="width: 100%;height: 20px;" ></div>
+
+    <div class="line-3">
+        <div class="line-3-image-1"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-2"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-3"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-4"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-5"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-6"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="img-6-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-7-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-8-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-9-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-10-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-11-name"><font>这朵花叫什么名字</font></div>
+    </div>
+    <div class="line-4">
+        <div style="width: 100%;height: 20px;" ></div>
+
+        <div class="line-3-image-1"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-2"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-3"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-4"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-5"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="line-3-image-6"><img class="img-1" src="images/4.jpg" alt=""></div>
+        <div class="img-6-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-7-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-8-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-9-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-10-name"><font>这朵花叫什么名字</font></div>
+        <div class="img-11-name"><font>这朵花叫什么名字</font></div>
+    </div>
+    <div style="width: 100%;height: 30px;"></div>
+</div>
+<div class="footerDiv">
+    <div class="footerTopDiv">
+        <div class="footerLine"></div>
+        <div class="footerMiddleDiv">
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/box.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">全场包邮</div>
+                    <div style="font-size: 80%;">特殊商品除外</div>
+                </div>
+            </div>
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/express.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">同城速递</div>
+                    <div style="font-size: 80%;">支持当日送达</div>
+                </div>
+            </div>
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/edit.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">爱的留言</div>
+                    <div style="font-size: 80%;">支持文字，随时查阅</div>
+                </div>
+            </div>
+            <div class="footerLeft25">
+                <div class="footerTopImageDiv">
+                    <img src="images/flower.png">
+                </div>
+                <div class="footerTopTextDiv">
+                    <div style="font-size: 120%;">保养物语</div>
+                    <div style="font-size: 80%;">恒久保存爱意</div>
+                </div>
+            </div>
+        </div>
+        <div class="footerLine"></div>
+    </div>
+    <div class="footerBottomDiv">
+        <div class="footerLeft20">
+            <div id="erweimaDiv" class="erweimaDiv" style="display: none;">
+                <img src="images/erweima.png">
+            </div>
+            <div style="height: 20px;"></div>
+            <div style="text-align: center;font-size: 150%;">YOROROOM'</div>
+            <div style="height: 30px;"></div>
+            <div style="text-align: center;font-size: 120%;">幽然小亭</div>
+            <div style="height: 50px;"></div>
+            <div style="text-align: center;">
+                <img style="width: 60px;height: 60px;" src="images/weixin.png" onmouseout="hideErweima()"
+                     onmousemove="showErweima()">
+            </div>
+        </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">新手指南</li>
+                    <li onclick="newbieGuide(1)">购物流程</li>
+                    <li onclick="newbieGuide(2)">会员尊享</li>
+                    <li onclick="newbieGuide(3)">常见问题</li>
+                    <li onclick="newbieGuide(4)">指圈测量</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">售后服务</li>
+                    <li onclick="afterService(1)">退款说明</li>
+                    <li onclick="afterService(2)">保养物语</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">物流配送</li>
+                    <li onclick="distribution(1)">配送方式</li>
+                    <li onclick="distribution(2)">配送服务</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerLeft20">
+            <div class="footerUlLiDiv">
+                <ul>
+                    <li style="font-size: 120%;">关于我们</li>
+                    <li onclick="aboutUs(1)">品牌介绍</li>
+                    <li onclick="aboutUs(2)">渠道销售</li>
+                    <li onclick="aboutUs(3)">联系我们</li>
+                    <li onclick="aboutUs(4)">加入我们</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
+
+

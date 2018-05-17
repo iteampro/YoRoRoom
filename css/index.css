@@ -52,7 +52,21 @@ input {
     width: 50%;
     height: 120px;
     float: left;
-    line-height: 120px;
+}
+
+.headerFloat50Middle {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #e2e2e2;
+    float: left;
+    margin-top: 40px;
+}
+
+.headerFloat50Middleno {
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-top: 40px;
 }
 
 .headerLogoDiv {
@@ -79,25 +93,28 @@ input {
 
 .signInBtn {
     color: #429eff;
-    margin-top: 40px;
     width: 50px;
     height: 40px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .signUpBtn {
     color: #429eff;
-    margin-top: 40px;
     width: 50px;
     height: 40px;
-    cursor:pointer;
+    cursor: pointer;
+}
+
+.goShopping {
+    margin-top: 40px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
 }
 
 .searchInput {
-    width: 25%;
-    border: 1px solid #e2e2e2;
+    width: 100%;
     height: 40px;
-    margin-top: 40px;
     text-align: left;
 }
 
@@ -107,9 +124,7 @@ input {
     background: #545c64;
     color: white;
     text-align: center;
-    margin-top: 40px;
-    margin-right: 20%;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*导航栏*/
@@ -139,7 +154,7 @@ input {
 }
 
 .nav ul li:hover {
-    cursor:pointer;
+    cursor: pointer;
     font-size: 120%;
     background: black;
 }
@@ -229,20 +244,20 @@ input {
     height: 180px;
 }
 
-.footerUlLiDiv{
+.footerUlLiDiv {
     width: 100%;
-    height:100%;
+    height: 100%;
     margin-top: 20px;
 }
 
-.footerUlLiDiv ul{
+.footerUlLiDiv ul {
     width: 100%;
     list-style: none;
     text-align: center;
 }
 
-.footerUlLiDiv ul li{
-    cursor:pointer;
+.footerUlLiDiv ul li {
+    cursor: pointer;
     font-size: 90%;
     line-height: 40px;
 }

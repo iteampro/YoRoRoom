@@ -23,11 +23,22 @@
         </div>
         <!--右边登录注册搜索购物车-->
         <div class="headerFloat50">
-            <input type="text" placeholder="请输入关键字" class="searchInput">
-            <input type="button" class="searchBtn" value="搜索" onclick="">
-            <input class="signInBtn" type="button" onclick="clickSignInBtn()" value="登录">
-            <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="注册">
-            <input class="signUpBtn" type="button" onclick="goShopping()" value="购物车">
+            <div class="headerFloat50Middle" style="width: 200px;">
+                <input type="text" placeholder="请输入关键字" class="searchInput">
+            </div>
+            <div class="headerFloat50Middleno" style="">
+                <input type="button" class="searchBtn" value="搜索" onclick="">
+            </div>
+            <div class="headerFloat50Middle" style="margin-left: 100px;">
+                <input class="signInBtn" type="button" onclick="clickSignInBtn()" value="登录">
+            </div>
+            <div class="headerFloat50Middle" style="margin-left: 10px;">
+                <input class="signUpBtn" type="button" onclick="clickSignUpBtn()" value="注册">
+            </div>
+            <div class="headerFloat50Middle" style="width: 70px;margin-left: 10px;" onclick="goShopping()">
+                <img style="width: 30px;height: 25px;margin-top: 7px;float: left;" src="images/gouwuche.png">
+                <span style="float: left;margin-top: 7px;">(0)</span>
+            </div>
         </div>
     </header>
     <nav class="nav">

@@ -1,0 +1,235 @@
+@charset "utf-8";
+* {
+    -webkit-touch-callout: none;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, button, input, textarea, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+
+.line-1{
+    width: 1240px;
+    height: 400px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.line-2{
+    width: 1240px;
+    height: 250px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+
+}
+.line-3{
+    width: 1240px;
+    height: 120px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.line-4{
+    width: 1240px;
+    height: 120px;
+    margin: 0 auto;
+    /* background-color: brown; */
+}
+.line-1-image-1{
+    width: 48%;
+    height: 85%;
+    float: left;
+}
+.line-1-image-2{
+    width: 48%;
+    height: 85%;
+    float: right;
+}
+.img-1{
+    width: 100%;
+    height: 100%;
+}
+.img-1-name{
+    width: 48%;
+    height: 15%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.img-2-name{
+    width: 48%;
+    height: 15%;
+    float: right;
+    /* background-color: rebeccapurple; */
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+.line-2-image-1{
+    width: 30%;
+    height: 85%;
+    float: left;
+}
+.line-2-image-2{
+    width: 30%;
+    height: 85%;
+    margin-left: 5%;
+    float: left;
+}
+.line-2-image-3{
+    width: 30%;
+    height: 85%;
+    margin-left: 5%;
+    float: left;
+}
+.img-3-name{
+    width: 30%;
+    height: 15%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.img-4-name{
+    width: 30%;
+    height: 15%;
+    margin-left: 5%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.img-5-name{
+    width: 30%;
+    height: 15%;
+    margin-left: 5%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.line-3-image-1{
+    width: 13%;
+    height: 80%;
+    float: left;
+}
+.line-3-image-2{
+    width: 13%;
+    height: 80%;
+    float: left;
+    margin-left: 50px;
+}
+.line-3-image-3{
+    width: 13%;
+    height: 80%;
+    float: left;
+    margin-left: 5%;
+
+}
+.line-3-image-4{
+    width: 13%;
+    height: 80%;
+    float: left;
+    margin-left: 4%;
+
+}
+.line-3-image-5{
+    width: 13%;
+    height: 80%;
+    float: left;
+    margin-left: 5%;
+
+}
+.line-3-image-6{
+    width: 13%;
+    height: 80%;
+    float: left;
+    margin-left: 49px;
+
+}
+.img-6-name{
+    width: 13%;
+    height: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.img-7-name{
+    width: 13%;
+    height: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+
+}
+.img-8-name{
+    width: 13%;
+    height: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+
+}
+.img-9-name{
+    width: 13%;
+    height: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 4%;
+
+}
+.img-10-name{
+    width: 13%;
+    height: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+
+}
+.img-11-name{
+    width: 13%;
+    height: 20%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 49px;
+
+}
